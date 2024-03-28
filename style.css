@@ -1,0 +1,147 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    margin: 0;
+    min-width: 400px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #221F1F;
+}
+
+.card_load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #221F1F;
+}
+
+.card_loading_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_items {
+    margin: 60px;
+    padding: 0 53px;
+    flex-grow: 1;
+}
+
+.item_category {
+    border-radius: 20px;
+    border: 1px solid #202020;
+    background-color: #1a1a1a;
+    padding: 10px 15px;
+}
+
+.item_price {
+    margin: 0;
+    color: rgba(98,90,103,0.56);
+}
+
+.loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #E35734;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+
+.card {
+    background-color: #ECECEC;
+    width: 275px;
+    border-radius: 12px;
+    padding: 12px 12px 20px;
+}
+
+.card_cards {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    background-color: #221F1F;
+}
+
+ul.card_cards {
+    margin: 0 auto;
+}
+
+.item_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card_card {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    background-color: #090808;
+    border-radius: 12px;
+}
+
+.card_games {
+    gap: 10px;
+    line-height: 21px;
+    margin: 12px;
+}
+
+.name_game {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item_text {
+    margin: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.btn_cart {
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: blueviolet;
+}
+
+.info_game {
+    list-style: none;
+    padding: 7px 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.name_game {
+    margin: 0;
+}
+
+.info_game {
+    margin: 0;
+}
+
+.bolt {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.list_card {
+    padding-bottom: 10px;
+}

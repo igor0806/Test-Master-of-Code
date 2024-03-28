@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Salle</title>
+</head>
+<body>
+<div class="all_items">
+    <div class="container">
+        <div class="card_load" data-type="loading">
+            <p class="card_loading_text">Loading...</p>
+            <p class="loading"></p>
+        </div>
+        <div class="card_cards">
+            <ul class="card_cards" data-type="item-list"></ul>
+            <template data-type="card-template">
+                <div class="card_card">
+                    <div class="card_games">
+                        <div>
+                            <img class="item_img" data-item-img alt="img" src="">
+                        </div>
+                        <div class="card_title">
+                            <h3 class="name_game" data-item-title></h3>
+                            <p class="info_game" data-item-description></p>
+                        </div>
+                    </div>
+                    <div class="item_text">
+                        <div class="info_game">
+                            <p class="item_category" data-card-category></p>
+                            <p class="item_price">price</p>
+                            <p data-card-price></p>
+                        </div>
+                        <button class="btn_cart">Add To Cart</button>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
