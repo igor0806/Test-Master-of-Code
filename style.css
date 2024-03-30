@@ -82,6 +82,7 @@ ul.card_cards {
 .item_img {
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .card_card {
@@ -112,13 +113,20 @@ ul.card_cards {
 }
 
 .btn_cart {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 18px;
     width: 120px;
-    height: 25px;
+    height: 35px;
     border-radius: 10px;
+    border: none;
     color: #ffffff;
     background-color: blueviolet;
+}
+
+.item_number {
+    margin: 0 0 20px;
+    font-size: 18px;
+
 }
 
 .info_game {
